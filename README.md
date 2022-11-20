@@ -1,6 +1,6 @@
 # zyg
 
-## a little webside
+## a little website
 
 include
 - index.html
