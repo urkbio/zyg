@@ -10,7 +10,7 @@ include
 - boottrap.min.css
 
 ---
-用bootstrap框架
+使用bootstrap框架
 https://getbootstrap.com/
 
 
