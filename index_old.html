@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+	<link rel="shortcut icon" href="https://s1.xptou.com/2022/09/14/632154ad8f8f9.ico">
+	<!-- <link href="bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <style>
+		body {
+			margin:0px;
+			background-color: #CDA59E;
+			background-size:100% 100%;
+			background-attachment:fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+		}
+
+		h1 {
+			border: 1px solid transparent;
+			color: #8BA583;
+			font-size: 3rem;
+		}
+
+		.z {
+			color: #114102;
+		}
+
+		h1:hover {
+    		font-size: 3rem;
+    		color: #de725f;
+			padding-right:10px;
+            padding-left:10px;
+			}
+ 		#a:hover {
+    		color: aqua;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+			}
+ 		#b:hover {
+    		color: rgb(195, 124, 207);
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+ 			}
+		#c:hover {
+    		color: red;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+ 			}
+		#d:hover {
+    		color: blue;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+ 			}
+		#e:hover {
+    		color: green;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+ 			}
+		#f:hover {
+    		color: purple;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+			}
+		#g:hover {
+    		color: purple;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+			}
+		#h:hover {
+    		color: blank;
+			padding-right:10px;
+            padding-left:10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+			}	
+
+	</style> -->
+	<style>
+		span {
+			color:pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">ZYG</h1>
+		<div style="text-align:center;">
+		
+		</div>
+		<hr>
+
+		<div class="row">
+			<div class="col-md-1">
+				
+				<a blank='False' href = "https://www.baidu.com">
+				<button id="a" class="z">Baidu</button>
+				</a>
+			</div>	
+				
+			<div class="col-md-1">	
+				<a blank='False' href = "https://www.google.com">
+				<button id="b" class="z">Google</button>
+				</a>
+			</div>	
+
+
+			<div class="col-md-1">
+				<a blank='False' href = "https://www.qireader.com.cn/">
+				<button id="c" class="z">qireader</button>
+				</a>
+			</div>		
+
+			<div class="col-md-1">
+				<a blank='False' href = "https://zyg{$rthSuffix}/zram.html">
+				<button id="d" class="z">Youtube</button>
+				</a>
+			</div>		
+
+
+			<div class="col-md-1">	
+				<a blank='False' href = "https://zyg{$rthSuffix}/bookmarks.html">
+				<button id="e" class="z">bookmarks</button>
+				</a>
+			</div>	
+				
+			<div class="col-md-1">
+				<a blank='false' herf = "https://zyg{$rthSuffix}/about.html">
+				<button id="f" class="z">about</button>
+				</a>
+				
+			</div>
+			
+		</div>
+
+		<hr>
+
+		<dl style="color: #8BA583;">
+			<dt><em>螃蟹在剥我的壳，笔记本在写我。</em></dt> 
+			<dt><em>漫天的我落在枫叶上雪花上。</em></dt> 
+			<dt><em>而你在想我。</em></dt>
+		</dl>
+
+		<br>
+		<br>
+
+		<p class="text-justify" style="color: #8BA583">我只是一个<small><b>ZYG</b></small>，请和我一样！</p>
+		
+	</div>
+
+	<br>
+
+	<script>
+		let userName = prompt('请输入用户名: ')
+		let passward = prompt('请输入密码: ')
+		document.write(`
+		\n你好 <span>${userName}</span> 大佬,你的密码 ${passward} 输错了，不过还是欢迎你！
+		`)
+	</script>
+	
+</body>
+</html>
