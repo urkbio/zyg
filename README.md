@@ -11,7 +11,9 @@ include
 - index_old.html
 ...
 
-*开始逐渐使用JavaScript*
+*开始逐渐使用JavaScript,main.js是所使用的js文件，由于导入js到[热铁盒网页托管](https://host.retiehe.com/)需要VIP，所以暂时写在HTML内*
+
+---
 ~~使用[bootstrap](https://getbootstrap.com/)框架~~
 
 使用[热铁盒网页托管](https://host.retiehe.com/)
